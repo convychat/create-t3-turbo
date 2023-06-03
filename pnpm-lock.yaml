@@ -45,8 +45,8 @@ importers:
         specifier: 1.4.3
         version: 1.4.3(@babel/runtime@7.22.3)(react-native@0.71.8)(react@18.2.0)
       '@supabase/auth-helpers-react':
-        specifier: ^0.3.1
-        version: 0.3.1(@supabase/supabase-js@2.20.0)
+        specifier: ^0.4.0
+        version: 0.4.0(@supabase/supabase-js@2.20.0)
       '@supabase/supabase-js':
         specifier: ^2.20.0
         version: 2.20.0
@@ -175,8 +175,8 @@ importers:
         specifier: ^0.7.1
         version: 0.7.1(@supabase/supabase-js@2.20.0)
       '@supabase/auth-helpers-react':
-        specifier: ^0.3.1
-        version: 0.3.1(@supabase/supabase-js@2.20.0)
+        specifier: ^0.4.0
+        version: 0.4.0(@supabase/supabase-js@2.20.0)
       '@supabase/supabase-js':
         specifier: ^2.20.0
         version: 2.20.0
@@ -2909,10 +2909,10 @@ packages:
       set-cookie-parser: 2.6.0
     dev: false
 
-  /@supabase/auth-helpers-react@0.3.1(@supabase/supabase-js@2.20.0):
-    resolution: {integrity: sha512-g3SFv08Dz9FapNif/ZY1b7qKGlMJDyTLSayHBz3kb3FuYxg7aLWgQtydDhm5AGbc0XtvpIBuhGTIOVevwpdosA==}
+  /@supabase/auth-helpers-react@0.4.0(@supabase/supabase-js@2.20.0):
+    resolution: {integrity: sha512-EPsLi6r2NSZ4pyK9PTjImx9FFM+2rJoNN/I0kF3rqj2HGcFstopu9ZELKQ5Lc1humlCG4pxIdHn3564gJqIqlQ==}
     peerDependencies:
-      '@supabase/supabase-js': ^2.0.4
+      '@supabase/supabase-js': ^2.19.0
     dependencies:
       '@supabase/supabase-js': 2.20.0
     dev: false
