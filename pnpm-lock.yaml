@@ -82,7 +82,7 @@ importers:
         version: 4.0.1(expo@48.0.19)
       expo-router:
         specifier: ^1.5.3
-        version: 1.5.3(@types/react@18.2.11)(expo-constants@14.2.1)(expo-linking@4.0.1)(expo-modules-autolinking@1.2.0)(expo-status-bar@1.4.4)(expo@48.0.19)(metro@0.76.5)(react-dom@18.2.0)(react-native-gesture-handler@2.10.1)(react-native-safe-area-context@4.5.3)(react-native-screens@3.20.0)(react-native@0.71.10)(react@18.2.0)
+        version: 1.5.3(@types/react@18.2.12)(expo-constants@14.2.1)(expo-linking@4.0.1)(expo-modules-autolinking@1.2.0)(expo-status-bar@1.4.4)(expo@48.0.19)(metro@0.76.5)(react-dom@18.2.0)(react-native-gesture-handler@2.10.1)(react-native-safe-area-context@4.5.3)(react-native-screens@3.20.0)(react-native@0.71.10)(react@18.2.0)
       expo-secure-store:
         specifier: ~12.1.1
         version: 12.1.1(expo@48.0.19)
@@ -142,8 +142,8 @@ importers:
         specifier: ^7.20.1
         version: 7.20.1
       '@types/react':
-        specifier: ^18.2.11
-        version: 18.2.11
+        specifier: ^18.2.12
+        version: 18.2.12
       '@types/webpack-env':
         specifier: ^1.18.0
         version: 1.18.0
@@ -227,11 +227,11 @@ importers:
         specifier: ^18.16.17
         version: 18.16.17
       '@types/react':
-        specifier: ^18.2.11
-        version: 18.2.11
+        specifier: ^18.2.12
+        version: 18.2.12
       '@types/react-dom':
-        specifier: ^18.2.4
-        version: 18.2.4
+        specifier: ^18.2.5
+        version: 18.2.5
       autoprefixer:
         specifier: ^10.4.14
         version: 10.4.14(postcss@8.4.24)
@@ -2585,7 +2585,7 @@ packages:
     resolution: {integrity: sha512-FTaOCGs0LL0OW68juZlGxFtYviZa4xdQj/rQEdat2txw0s3Vu/saAPKjNVXfIgUsGXmQ72HPgNr6935/P8FNAA==}
     requiresBuild: true
 
-  /@radix-ui/react-compose-refs@1.0.1(@types/react@18.2.11)(react@18.2.0):
+  /@radix-ui/react-compose-refs@1.0.1(@types/react@18.2.12)(react@18.2.0):
     resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==}
     peerDependencies:
       '@types/react': '*'
@@ -2595,11 +2595,11 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.22.5
-      '@types/react': 18.2.11
+      '@types/react': 18.2.12
       react: 18.2.0
     dev: false
 
-  /@radix-ui/react-slot@1.0.2(@types/react@18.2.11)(react@18.2.0):
+  /@radix-ui/react-slot@1.0.2(@types/react@18.2.12)(react@18.2.0):
     resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==}
     peerDependencies:
       '@types/react': '*'
@@ -2609,8 +2609,8 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.22.5
-      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.11)(react@18.2.0)
-      '@types/react': 18.2.11
+      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.12)(react@18.2.0)
+      '@types/react': 18.2.12
       react: 18.2.0
     dev: false
 
@@ -3240,14 +3240,14 @@ packages:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: false
 
-  /@types/react-dom@18.2.4:
-    resolution: {integrity: sha512-G2mHoTMTL4yoydITgOGwWdWMVd8sNgyEP85xVmMKAPUBwQWm9wBPQUmvbeF4V3WBY1P7mmL4BkjQ0SqUpf1snw==}
+  /@types/react-dom@18.2.5:
+    resolution: {integrity: sha512-sRQsOS/sCLnpQhR4DSKGTtWFE3FZjpQa86KPVbhUqdYMRZ9FEFcfAytKhR/vUG2rH1oFbOOej6cuD7MFSobDRQ==}
     dependencies:
-      '@types/react': 18.2.11
+      '@types/react': 18.2.12
     dev: true
 
-  /@types/react@18.2.11:
-    resolution: {integrity: sha512-+hsJr9hmwyDecSMQAmX7drgbDpyE+EgSF6t7+5QEBAn1tQK7kl1vWZ4iRf6SjQ8lk7dyEULxUmZOIpN0W5baZA==}
+  /@types/react@18.2.12:
+    resolution: {integrity: sha512-ndmBMLCgn38v3SntMeoJaIrO6tGHYKMEBohCUmw8HoLLQdRMOIGXfeYaBTLe2lsFaSB3MOK1VXscYFnmLtTSmw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -5545,7 +5545,7 @@ packages:
       invariant: 2.2.4
     dev: false
 
-  /expo-router@1.5.3(@types/react@18.2.11)(expo-constants@14.2.1)(expo-linking@4.0.1)(expo-modules-autolinking@1.2.0)(expo-status-bar@1.4.4)(expo@48.0.19)(metro@0.76.5)(react-dom@18.2.0)(react-native-gesture-handler@2.10.1)(react-native-safe-area-context@4.5.3)(react-native-screens@3.20.0)(react-native@0.71.10)(react@18.2.0):
+  /expo-router@1.5.3(@types/react@18.2.12)(expo-constants@14.2.1)(expo-linking@4.0.1)(expo-modules-autolinking@1.2.0)(expo-status-bar@1.4.4)(expo@48.0.19)(metro@0.76.5)(react-dom@18.2.0)(react-native-gesture-handler@2.10.1)(react-native-safe-area-context@4.5.3)(react-native-screens@3.20.0)(react-native@0.71.10)(react@18.2.0):
     resolution: {integrity: sha512-rZEoRpXjXpfcx549/MI7YRitaBGFOHpIGLO+cb18ecsShl3PzGPIDaBGMnTo0m1h7ip0sAIQg1EFrSAtM4LXLA==}
     peerDependencies:
       '@react-navigation/drawer': ^6.5.8
@@ -5566,7 +5566,7 @@ packages:
     dependencies:
       '@bacons/react-views': 1.1.3(react-native@0.71.10)
       '@expo/metro-runtime': 2.0.6(react-native@0.71.10)
-      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.11)(react@18.2.0)
+      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.12)(react@18.2.0)
       '@react-navigation/bottom-tabs': 6.5.7(@react-navigation/native@6.1.6)(react-native-safe-area-context@4.5.3)(react-native-screens@3.20.0)(react-native@0.71.10)(react@18.2.0)
       '@react-navigation/native': 6.1.6(react-native@0.71.10)(react@18.2.0)
       '@react-navigation/native-stack': 6.9.12(@react-navigation/native@6.1.6)(react-native-safe-area-context@4.5.3)(react-native-screens@3.20.0)(react-native@0.71.10)(react@18.2.0)
