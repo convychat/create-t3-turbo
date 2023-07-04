@@ -75,8 +75,8 @@ importers:
         specifier: ^12.2.2
         version: 12.2.2(expo@48.0.19)
       expo-image:
-        specifier: ^1.2.3
-        version: 1.2.3(expo@48.0.19)
+        specifier: ^1.3.1
+        version: 1.3.1(expo@48.0.19)
       expo-linking:
         specifier: ~4.0.1
         version: 4.0.1(expo@48.0.19)
@@ -5512,8 +5512,8 @@ packages:
       - react-dom
     dev: false
 
-  /expo-image@1.2.3(expo@48.0.19):
-    resolution: {integrity: sha512-+Mnx6rcneWSUGfHkUDV3cQ3R4lVwoIDFs/tcXVqnlxyNJdNxpW2cge9pS2Hpj3UDoZVhZPLR8LHS8E9wEaC0NA==}
+  /expo-image@1.3.1(expo@48.0.19):
+    resolution: {integrity: sha512-UiO+HtNKmoiIIPqcAH31PUFatXaKAZJk0sNOtvYsZ3el3SP+kBJVp9DGLZru3y+wbWEF2J9ABPYA3wc6HWdF8Q==}
     peerDependencies:
       expo: '*'
     dependencies:
