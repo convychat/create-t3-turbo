@@ -14,8 +14,8 @@
     "@acme/db": "^0.1.0",
     "@supabase/auth-helpers-nextjs": "^0.7.3",
     "@supabase/supabase-js": "^2.31.0",
-    "@trpc/client": "^10.35.0",
-    "@trpc/server": "^10.35.0",
+    "@trpc/client": "^10.36.0",
+    "@trpc/server": "^10.36.0",
     "superjson": "1.13.1",
     "zod": "^3.21.4"
   },
