@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@acme/db": "^0.1.0",
-    "@supabase/auth-helpers-nextjs": "^0.8.1",
+    "@supabase/auth-helpers-nextjs": "^0.8.3",
     "@supabase/supabase-js": "^2.38.2",
     "@trpc/client": "^10.41.0",
     "@trpc/server": "^10.41.0",
