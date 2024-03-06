@@ -24,7 +24,7 @@
     "@types/prettier": "^2.7.3",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.11",
+    "prettier-plugin-tailwindcss": "^0.5.12",
     "turbo": "^1.12.4",
     "typescript": "^5.3.3"
   }
