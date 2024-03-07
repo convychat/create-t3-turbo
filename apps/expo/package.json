@@ -12,7 +12,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@expo/metro-config": "^0.17.5",
+    "@expo/metro-config": "^0.17.6",
     "@shopify/flash-list": "1.6.3",
     "@supabase/auth-helpers-react": "^0.4.2",
     "@supabase/supabase-js": "^2.39.7",
